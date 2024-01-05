@@ -1,0 +1,102 @@
+section dos cards
+<section>      
+    
+       <div class="min-h-screen bg-gray-100 p-3 relative">
+
+        <div class="border-l-2 border-black p-2 m-2">
+            <h1 class="text-black text-xl lg:text-4xl p-2">Imóveis em Destaque</h1>
+        </div>
+
+          <div class="w-96 mx-auto" style="scroll-snap-type: x mandatory;">
+             <!-- first -->
+             <div class="">
+                <input class="sr-only peer" type="radio" name="carousel" id="carousel-1" checked />
+                <!-- content #1 -->
+                <div
+                   class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                   <img class="rounded-t-lg w-96 h-64" src="/image/gois1.jpg" alt="Bruno Patrocinio" />
+                   <div class="py-4 px-8">
+                      <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">Residencial Bruno Patrocínio
+                      </h1>
+                      <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">O residencial Bruno Patrocínio é o novo empreendimento do Grupo Gois, este condomínio conta com playground para crianças, apartamentos com dois quartos e varanda. Além disso, se localiza na cidade de Valparaíso de Goias.
+                      </p>
+                   </div>
+                   <!-- controls -->
+                   <div class="absolute top-1/2 w-full flex justify-between z-20">
+                      <label for="carousel-3" class="inline-block text-blue-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                      <label for="carousel-2" class="inline-block text-blue-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                   </div>
+                </div>
+             </div>
+             <!-- second -->
+             <div class="">
+                <input class="sr-only peer" type="radio" name="carousel" id="carousel-2" />
+                <!-- content #2 -->
+                <div
+                   class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                   <img class="rounded-t-lg w-96 h-64" src="/image/gois2.jpg" alt="Montes Alegre" />
+                   <div class="py-4 px-8">
+                      <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">
+                         Residencial Monte Alegre
+                      </h1>
+                      <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">Valparaíso é uma cidade que cresce a cada dia, com uma localização de destaque no entorno. Apartamentos vazados e com dois quartos, sala, cozinha, banheiro e área de serviço. Além disso, ficam em um residencial fechado com guarita, vaga na garagem e parque infantil.
+                      </p>
+                   </div>
+                   <!-- controls -->
+                   <div class="absolute top-1/2 w-full flex justify-between z-20">
+                      <label for="carousel-1" class="inline-block text-blue-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                      <label for="carousel-3" class="inline-block text-blue-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                   </div>
+                </div>
+             </div>
+             <!-- three -->
+             <div class="">
+                <input class="sr-only peer" type="radio" name="carousel" id="carousel-3" />
+                <!-- content #3 -->
+                <div
+                   class="w-96 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg shadow-lg transition-all duration-300 opacity-0 peer-checked:opacity-100 peer-checked:z-10 z-0">
+                   <img class="rounded-t-lg w-96 h-64" src="/image/gois3.jpeg" alt="" />
+                   <div class="py-4 px-8">
+                      <h1 class="hover:cursor-pointer mt-2 text-gray-900 font-bold text-2xl tracking-tight">
+                         Residencial Solar Park
+                      </h1>
+                      <p class="hover:cursor-pointer py-3 text-gray-600 leading-6">O Residencial Solar Park I é a oportunidade de você escrever sua história na Cidade Ocidental. Ele fica na entrada da cidade, próximo ao ponto de ônibus, mercados, posto de saúde e escolas. Não perca tempo e garanta sua unidade!
+                      </p>
+                   </div>
+                   <!-- controls -->
+                   <div class="absolute top-1/2 w-full flex justify-between z-20">
+                      <label for="carousel-2" class="inline-block text-blue-600 cursor-pointer -translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                      <label for="carousel-1" class="inline-block text-blue-600 cursor-pointer translate-x-5 bg-white rounded-full shadow-md active:translate-y-0.5">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                         </svg>
+                      </label>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+
+       
+   
+    </section>
